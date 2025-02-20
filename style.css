@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.container {
+    max-width: 360px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ddd;
+}
+h2 {
+    color: #ff4081;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.offer-box {
+    border: 2px solid #ddd;
+    padding: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+.offer-box.active {
+    border-color: #ff4081;
+    background: #fff5f8;
+}
+.offer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.radio-label {
+    display: flex;
+    align-items: center;
+}
+.radio-input {
+    margin-right: 8px;
+}
+.box1{
+    display: grid;
+}
+.discount-label {
+    background: #ff6B82;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+.most-popular {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background: #ff6B82;
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    display: grid;
+}
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.options {
+    display: none;
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid #ddd;
+}
+.offer-box.active .options {
+    display: block;
+}
+.option-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.option-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.select-box {
+    width: 45%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.free-delivery {
+    color: #ff6B82;
+    font-size: 16px;
+   float: left;
+    
+}
+.total {
+    font-size: 16px;
+    float:right;
+    font-weight: 500;
+}
+.add-to-cart {
+    background: #ff6B82;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.add-to-cart:hover {
+    background: #ff6B82;
+}
